@@ -54,3 +54,12 @@ body {
     height: 100vh;
     width: auto;
 }
+.side-button{
+    background:green;
+    color:white;
+    padding:10px 50px;
+    width: 185px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    cursor: pointer;
+}
