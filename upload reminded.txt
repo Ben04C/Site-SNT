@@ -1,4 +1,8 @@
-# $ git add .
-# $ git commit -m "Comments"
-# $ git remote add origin (paste GitHub URL Here)
-# $ git push -u origin master
+ls
+cd
+git init
+git remote add origin [gitLink]
+git remote -v
+git add .
+git commit -m "First commit"
+git push origin master

@@ -13,49 +13,54 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 
 
 .myLogo {
-    display: inline;
+    display: flex;
     float: left;
-    margin-left: 38%;
+    margin-left: 50%;
+    margin-right: 50%;
     margin-top: 0px;
     content:url("cc.png");
 }
 
 .nom {
-    white-space: nowrap;
+    white-space: nowrap ;
+    text-align:center;
     display: inline;
     float: right;
     margin-top: 20px;
     font-size: large;
-    margin-right: 39%;
+    margin-left: 50%;
+    margin-right: 40%;
 }
 
 .header {
-    display: inline-block;
-    width: 100%;clear:both;
-    background: red;
+    
+    width: 100%;
+    background: #91cfa1;
+    color: white;
 
 }
 
 #menu{
-    background: #a3c3da;
+    background: #91cfa1;
     width: 300px;
     height: 100vh;
     text-align: center;
 }
 #contenu{
     flex: 1;
-    background: #F0D291 no-repeat center fixed;
+    background: #6d9177;
     background-size: cover;
     height: 100vh;
     width: auto;
 }
 .side-button{
-    background:green;
+    background:red;
     color:white;
     padding:10px 50px;
     width: 185px;
