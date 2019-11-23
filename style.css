@@ -49,14 +49,14 @@ body {
 #menu{
     background: #bd8f71;
     width: 300px;
-    height: 100vh;
+    height: auto;
     text-align: center;
 }
 #contenu{
     flex: 1;
     background: #fce2c9;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: auto;
     font-family: "verdana", Times, serif;
     text-align: justify;
@@ -80,5 +80,6 @@ body {
 #bitcoin{
     margin:20px;
     padding:10px 50px;
+    font-size: 20px;
 
 }
