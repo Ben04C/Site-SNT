@@ -58,6 +58,8 @@ body {
     background-size: cover;
     height: 100vh;
     width: auto;
+    font-family: "verdana", Times, serif;
+    text-align: justify;
 }
 .side-button{
     background:red;
@@ -67,4 +69,16 @@ body {
     border-radius: 20px;
     box-shadow: 5px 5px 15px black;
     cursor: pointer;
+}
+
+.titres{
+
+    text-align: center;
+    
+}
+
+#bitcoin{
+    margin:20px;
+    padding:10px 50px;
+
 }
