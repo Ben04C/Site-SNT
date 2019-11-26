@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.myLogo {
+    display: flex;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 0px;
+    content:url("cc.png");
+}
+
+.nom {
+    white-space: nowrap ;
+    text-align: center;
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    font-size: large;
+    margin-left: 50%;
+    margin-right: 38%;
+}
+
+.header {
+    
+    width: 100%;
+    background: #801215;
+    color: white;
+
+}
+
+#menu{
+    background: #bd8f71;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+#contenu{
+    flex: 1;
+    background: #fce2c9;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    font-family: "verdana", Times, serif;
+    text-align: justify;
+}
+.side-button{
+    background:red;
+    color:white;
+    padding:10px 50px;
+    width: 185px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    cursor: pointer;
+}
+
+.titres{
+
+    text-align: center;
+    
+}
+
+#bitcoin{
+    margin:20px;
+    padding:10px 50px;
+    font-size: 20px;
+
+}
