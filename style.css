@@ -20,11 +20,11 @@ body {
 
 .myLogo {
     display: flex;
-    float: left;
+    float: right;
     margin-left: 50%;
-    margin-right: 50%;
+    margin-right: 42%;
     margin-top: 0px;
-    content:url("travail collaboratif.png");
+   
 }
 
 .nom {
